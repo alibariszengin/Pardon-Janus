@@ -1,0 +1,46 @@
+
+#card{
+  transition: transform 0.75s;
+}
+
+#card:hover{
+  transform:scale(1.05);
+}
+
+#personelMenu ul li:first-child{
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+#personelMenu ul li:last-child{
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+#personelMenu ul{
+	border-radius:10px;
+
+}
+#personelMenu ul li{
+ 
+  cursor:pointer;
+
+}
+#personelMenu li{
+
+  background-color: #ccc;
+  opacity: 1;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+
+
+}
+
+#personelMenu li:hover {
+  background-color: #eee;
+}
+
+#personelMenu li.active {
+  background-color: #4CAF50;
+  color: white;
+}

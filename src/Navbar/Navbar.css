@@ -1,0 +1,20 @@
+#navbar-list li{
+	display:inline-block;
+	float:left;
+	padding-right:2rem;
+	font-size:1.5rem;
+	cursor:pointer;
+	transition: transform .2s;
+
+}
+
+#navbar-list li:hover{
+	transform: scale(1.1);
+}
+
+.clearfix::after{
+	display:block;
+	content:"";
+	
+	clear:both;
+}

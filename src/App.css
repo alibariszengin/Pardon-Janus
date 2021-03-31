@@ -1,3 +1,13 @@
+
+*{
+  box-sizing: border-box;
+}
+.clearfix::after{
+  display:block;
+  content:"";
+  
+  clear:both;
+}
 .App {
   text-align: center;
 }
