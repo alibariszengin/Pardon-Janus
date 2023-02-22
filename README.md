@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+﻿
+# Digital Directory 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's a digital directory for people to change their business card and directory to one place. 
 
-## Available Scripts
+This project made for Janus recruitment assignment. 
 
+Janus is a start-up to change physical business cards to digital for business world.  
+
+Developed in 2021.
+
+## Table of contents
+* [General info](#general-info)
+* [Modules](#modules)
+* [Technologies-Tools](#technologies-tools)
+* [Setup](#setup)
+* [Contact](#contact)
+
+
+## General Info
+
+The project is a basic sample work to express the real Janus project.
+
+Without authentication, it represent the base page of a logged user. Displays user's contacts and their content. There are modules to add a new contact, display contacts that user has and the designs of the possible interactions without functionality.
+
+![Project Record](https://github.com/alibariszengin/Pardon-Janus/blob/main/Project-screen-record.gif?raw=true)
+
+## Modules
+
+- Add contacts with their manuel inputs.
+- Basic card design for contacts.
+- General design for page without functionality.
+
+## Technologies-Tools
+Project is created with:
+* Html/Css
+* React.js
+* node v14
+* VS Code
+
+## Setup
 In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.  
+Open  [http://localhost:3000](http://localhost:3000/)  to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.  
 You will also see any lint errors in the console.
 
-### `npm test`
+## Contact
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ali Barış Zengin  -  [alibariszengin@gmail.com](mailto:alibariszengin@gmail.com)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link:  [https://github.com/alibariszengin/Pardon-Janus](https://github.com/alibariszengin/Pardon-Janus)
