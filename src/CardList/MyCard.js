@@ -1,12 +1,15 @@
 import PersonelMenu from './PersonelMenu.js';
 import bosPp from './bosPp.webp';
+import { useEffect, useState } from 'react';
 
 const Card=(props) =>{
   const {name , email ,id, title, company, department }= props;
-  let {url} = props;
+  
+  const [url, setUrl] = useState(props.url);
   if(url===""){
-    url=bosPp;
+    setUrl(bosPp)
   }
+ 
 
   return (
     <div id="card" className={" d-inline-flex flex-column justify-content-between bg-danger rounded"} style={{ width:"300px",height: "25rem"}}>
